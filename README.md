@@ -256,6 +256,23 @@ O CIDR é uma ferramenta essencial para o endereçamento de redes na internet mo
 
 **1.6)** Ping novamente o IPV4 da impressora usando o novo endereço. Deu certo ou recebeu **Request time out**? O correto é receber **Request time out**, porque você mudou o IP para fora da faixa correta.
 
+**Passo 02:**
+
+**2.1)** Altere **IP configuration** da **FastEhernet0** de **Static** para **DHCP** de todos os dispositivos da rede. Isso significa que você não vai mais digitar manualmente os IPv4.
+
+**2.2)** A faixa de IP atribuída aos dispositivos de rede foi a mesma do que você escolheu no **Passo-01**? 
+
+**2.3)** Faça o teste do ping entre PC1 e impressora usando o novo endereço atribuído pelo protocolo DHCP. Sucesso? O correto é ter sucesso nessa etapa.
+
+# Desafio!
+
+Monte uma rede LAN wireless como se fosse na sua casa. Você vai precisar de um:
+
+* HomeRouter-PT-AC Wireless Router0
+* 2 laptops
+
+Faça a montagem e teste o ping entre eles.
+
 
 # Prática com Wireshark
 
