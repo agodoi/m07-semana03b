@@ -9,36 +9,6 @@ A instruçãpo de hoje te ensina a fazer testes internos na infraestrutura da AW
 
 Claro que de cara, um EC2 não vai responder a um PING porque a porta ICMP está fechada por padrão. Lembre-se! AWS inicia tudo com bloqueios.
 
-# Galera, dá uma olhada nessa imagens. Com elas, vocês vão aprender o que é a Internet e seus Protocolos.
-
-## Pontes
-
-<picture>
-   <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/m02-semana10/blob/main/imgs/pontes.png">
-   <img alt="Tipo de Modelagens" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m02-semana10/blob/main/imgs/pontes.png)">
-</picture>
-
-## Mapas
-
-<picture>
-   <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/m02-semana10/blob/main/imgs/mapas.jpg">
-   <img alt="Tipo de Modelagens" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m02-semana10/blob/main/imgs/mapas.jpg)">
-</picture>
-
-## Transportes
-
-<picture>
-   <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/m02-semana10/blob/main/imgs/modais-de-transporte.jpg">
-   <img alt="Tipo de Modelagens" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m02-semana10/blob/main/imgs/modais-de-transporte.jpg)">
-</picture>
-
-## Compartilhamento de informações
-
-<picture>
-   <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/m02-semana10/blob/main/imgs/compartilhamento.jpg">
-   <img alt="Tipo de Modelagens" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m02-semana10/blob/main/imgs/compartilhamento.jpg)">
-</picture>
-
 # Tipos de Redes
 
 ## 1) PAN
@@ -198,66 +168,6 @@ As WANs funcionam conectando várias LANs e MANs através de longas distâncias 
 * Instituições governamentais: compartilhamento de informações e recursos entre departamentos em diferentes locais.
 * Provedores de Serviços de Internet (ISP - Internet Service Provider): fornecer conectividade à internet em grande escala.
 
-# Modelo TCP/IP
-
-## Definição do Modelo TCP/IP
-
-O modelo TCP/IP, também conhecido como **Modelo de Internet**, é um conjunto de protocolos de comunicação que forma a base da Internet. 
-
-
-<picture>
-   <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/m02-semana10/blob/main/imgs/modeloTCP-IP.png">
-   <img alt="Tipo de Modelagens" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m02-semana10/blob/main/imgs/modeloTCP-IP.png)">
-</picture>
-
-
-
-## Onde os protocolos vão?
-
-
-<picture>
-   <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/m02-semana10/blob/main/imgs/camadas_v2.png">
-   <img alt="Tipo de Modelagens" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m02-semana10/blob/main/imgs/camadas_v2.png)">
-</picture>
-
-
-## De que forma?
-
-<picture>
-   <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/m02-semana10/blob/main/imgs/TCP-IPfig1.png">
-   <img alt="Tipo de Modelagens" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m02-semana10/blob/main/imgs/TCP-IPfig1.png)">
-</picture>
-
-
-
-## Vantagens do Modelo TCP/IP
-
-1. **Interoperabilidade Universal**:
-    - **Explicação**: o modelo TCP/IP é amplamente adotado e suportado por praticamente todos os sistemas operacionais e dispositivos de rede, o que facilita a comunicação e integração entre diferentes tecnologias e plataformas.
-    - **Exemplo**: Um smartphone rodando iOS pode se comunicar sem problemas com um servidor rodando Linux, graças ao uso comum do TCP/IP.
-
-2. **Escalabilidade**:
-    - **Explicação**: o TCP/IP foi projetado para escalar eficientemente, suportando desde pequenas redes locais até a vasta rede global da Internet.
-    - **Exemplo**: uma empresa pode começar com uma pequena rede interna e expandir para uma rede global sem a necessidade de substituir a infraestrutura ou os protocolos de comunicação.
-
-3. **Robustez e Flexibilidade**:
-    - **Explicação**: o modelo é robusto e flexível, capaz de se adaptar a diferentes tecnologias de rede e resistir a falhas parciais na rede.
-    - **Exemplo**: se uma rota de dados na Internet falhar, o TCP/IP pode redirecionar o tráfego por outras rotas, garantindo que a comunicação não seja interrompida.
-
-## Desvantagens do Modelo TCP/IP
-
-1. **Complexidade na Configuração**:
-    - **Explicação**: a configuração de redes TCP/IP pode ser complexa, exigindo conhecimentos técnicos avançados para ajustar parâmetros como endereçamento IP, sub-redes e roteamento.
-    - **Exemplo**: configurar uma rede corporativa com múltiplos roteadores e sub-redes requer uma compreensão detalhada de conceitos como máscara de sub-rede e tabelas de roteamento.
-
-2. **Sobrecarga de Protocolo**:
-    - **Explicação**: o protocolo TCP, em particular, adiciona uma sobrecarga significativa devido à necessidade de estabelecer e manter conexões, o que pode impactar a performance em redes com recursos limitados.
-    - **Exemplo**: em redes de sensores ou dispositivos IoT com pouca largura de banda, a sobrecarga do TCP pode resultar em menor eficiência na transmissão de dados.
-
-3. **Segurança Limitada por Padrão**:
-    - **Explicação**: o TCP/IP foi desenvolvido com pouca preocupação com a segurança, e muitas de suas funcionalidades nativas são vulneráveis a ataques. Medidas de segurança adicionais são frequentemente necessárias.
-    - **Exemplo**: o protocolo não possui mecanismos de criptografia ou autenticação nativos, necessitando de camadas extras de segurança, como VPNs ou TLS, para proteger os dados.
-
 # Faixa de Endereçamentos IP
 
 ## Entendendo o CIDR: Uma Maneira Flexível de Endereçar Redes
@@ -322,6 +232,30 @@ O CIDR é uma ferramenta essencial para o endereçamento de redes na internet mo
 ### 1) Cada aluno precisa abrir o link a seguir e preencher os campos em vermelho no respectivo assento da sua bancada. Use o comando ```ipconfig /all``` no CMD do seu computador para puxar os dados necessários. No iMAC faça testes com ```system_profiler SPNetworkDataType```
 
 [CLIQUE AQUI](https://docs.google.com/presentation/d/1juQH2R2auQRocWxc2rCXlqJZy550fF74A7VYAapsnHk/edit?usp=sharing)
+
+
+# Prática com Packet Tracer
+
+**Passo 01:**
+
+**1.1)** Monte uma rede LAN com 3 PC comuns, 1 servidor, 1 impressora, 1 Switch 2950 usando o cabo direto;
+
+**1.2)** Escolha uma faixa de endereço gratuita com CIDR /24, e defina qual é a faixa de endereços válidos;
+
+**1.3)** Em cada dispositivo de rede, clique em **Config**, **FastEthernet0** e depois **IPV4 Address** e insira manualmente os seguintes endereços de IPV4: 
+
+* impressora: recebe segundo endereço útil da faixa
+* PC1: recebe terceiro endereço útil da faixa
+* PC2: recebe quarto endereço útil da faixa
+* PC3: recebe quinto endereço útil da faixa
+* servidor: recebe sexto endereço útil da faixa
+
+**1.4)** Vá no terminal CMD do PC1, e tente pingar o PC2, depois ping PC3, depois, o servidor e depois, a impressora. Veja se você obteve com sucesso o recebimento de 4 pacotes.
+
+**1.5)** Altere o IPV4 da impressora para um número fora da faixa de IPs que você definiu;
+
+**1.6)** Ping novamente o IPV4 da impressora usando o novo endereço. Deu certo ou recebeu **Request time out**? O correto é receber **Request time out**, porque você mudou o IP para fora da faixa correta.
+
 
 # Prática com Wireshark
 
