@@ -238,9 +238,14 @@ O CIDR é uma ferramenta essencial para o endereçamento de redes na internet mo
 
 **Passo 01:**
 
-**1.1)** Monte uma rede LAN com 3 PC comuns, 1 servidor, 1 impressora, 1 Switch 2950-24 usando o cabo direto;
+**1.1)** Monte uma rede LAN do tipo **static IP** com 3 PC comuns, 1 servidor, 1 impressora, 1 Switch 2950-24 usando o cabo direto (copper straight-through);
 
 **1.2)** Escolha uma faixa de endereço gratuita com CIDR /24, e defina qual é a faixa de endereços válidos;
+
+- Faixa exemplo: 192.168.10.0/24
+- Endereço de rede: 192.168.10.0
+- Broadcast: 192.168.10.255
+- Faixa válida (hosts utilizáveis): 192.168.10.1 até 192.168.10.254
 
 **1.3)** Em cada dispositivo de rede, clique em **Config**, **FastEthernet0** e depois **IPV4 Address** e insira manualmente os seguintes endereços de IPV4: 
 
