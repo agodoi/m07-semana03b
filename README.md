@@ -238,7 +238,7 @@ O CIDR é uma ferramenta essencial para o endereçamento de redes na internet mo
 
 **Passo 01:**
 
-**1.1)** Monte uma rede LAN com 3 PC comuns, 1 servidor, 1 impressora, 1 Switch 2950 usando o cabo direto;
+**1.1)** Monte uma rede LAN com 3 PC comuns, 1 servidor, 1 impressora, 1 Switch 2950-24 usando o cabo direto;
 
 **1.2)** Escolha uma faixa de endereço gratuita com CIDR /24, e defina qual é a faixa de endereços válidos;
 
