@@ -1,4 +1,4 @@
-# Mergulhando nas Redes como um Tubarão
+# Fundamentos de Redes LAN
 
 Nessa instrução vamos nos aprofundar sobre o que acontece quando uma requisição-resposta entre cliente e servidor é processada. Faremos atividades práticas para simular esses processos, e compreenderemos ainda mais sobre Redes de Computadores.
 
